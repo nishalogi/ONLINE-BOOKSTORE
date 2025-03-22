@@ -16,7 +16,7 @@ View book details, reviews, and ratings
 
 Add books to the cart and checkout
 
-Manage user account (Login, Signup, Logout)
+ user account (Login, Signup, Logout)
 
 Add reviews and ratings to books
 
