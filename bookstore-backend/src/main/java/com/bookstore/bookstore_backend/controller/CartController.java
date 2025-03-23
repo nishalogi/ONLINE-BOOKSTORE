@@ -97,7 +97,7 @@ public class CartController {
         }
     }
 
-    // ✅ Remove item from cart
+    //  Remove item from cart
     @DeleteMapping("/remove/{cartItemId}")
     public ResponseEntity<?> removeFromCart(@PathVariable Long cartItemId) {
         cartService.removeItem(cartItemId);
