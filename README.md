@@ -29,7 +29,7 @@ Manage users (Activate/Deactivate users)
 Manage orders (View, update status, cancel)
 
 
-
+HOME PAGE:
 
 
 ![Screenshot (322)](https://github.com/user-attachments/assets/81abd427-ac28-474b-8ef9-d2833e5a50c4)
