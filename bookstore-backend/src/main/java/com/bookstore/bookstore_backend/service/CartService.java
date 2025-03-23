@@ -65,7 +65,7 @@ public class CartService {
 	        }
 	    }
 
-	    //  Remove item from cart (Ensures user can only delete their own cart item)
+	    //  Remove item from cart 
 	    public void removeFromCart(Long cartId, User user) {
 	        Optional<Cart> cartItem = cartRepository.findById(cartId);
 
