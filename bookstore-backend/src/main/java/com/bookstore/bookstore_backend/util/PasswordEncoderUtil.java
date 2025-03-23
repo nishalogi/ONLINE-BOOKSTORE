@@ -8,9 +8,8 @@ public class PasswordEncoderUtil {
 
 	public static void main(String[] args) {
 BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-        
-//Change these values as needed
-String name = "Nisha";  // Add user name
+
+String name = "Nisha";  
 String email = "user@example.com";
 String rawPassword = "password123";
 String role = "ROLE_USER";
@@ -28,14 +27,13 @@ System.out.println("INSERT INTO users (name, email, password, role) VALUES ('"
  + user.getPassword() + "', '" 
  + user.getRole() + "');");
 
-//Generate password hash for Admin
 String adminName = "Admin";
 String adminEmail = "Admin@example.com";
 String adminPassword = "password123";
 String adminEncodedPassword = encoder.encode(adminPassword);
 String adminRole = "ROLE_ADMIN";
 
-//Print SQL statements to insert into MySQL
+
 System.out.println("\n--- SQL Statements to Insert Users ---");
 System.out.println("INSERT INTO users (name, email, password, role) VALUES ('" 
  + adminName + "', '" + adminEmail + "', '" + adminEncodedPassword + "', '" + adminRole + "');");
